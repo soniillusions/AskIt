@@ -14,11 +14,27 @@ class AnswersController < ApplicationController
   end
 
   def destroy
-    answer = @question.answers.find params[:id]
+    answer = @question.answers.find(params[:id])
     answer.destroy
     flash[:success] = "Answer deleted!"
     redirect_to question_path(@question)
   end
+
+  def edit
+    @answer = @question.answers.find(params[:id])
+  end
+
+  def update
+    @answer = @question.answers.find(params[:id])
+
+    if @answer.update(answer_params)
+      flash[:success] = "Answer updated!"
+      redirect_to question_path(@question)
+    else
+      render :edit
+    end
+  end
+
 
   private
 

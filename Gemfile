@@ -61,3 +61,5 @@ group :development do
 end
 
 gem 'pagy', '~> 8.3' # omit patch digitgem 'pagy', '~> 4.1'
+gem 'draper', '~> 4.0'
+gem "valid_email2", "~> 4.0"

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AnswerDecorator < Draper::Decorator
   delegate_all
 
@@ -5,6 +7,3 @@ class AnswerDecorator < Draper::Decorator
     created_at.strftime('%Y-%m-%d %H:%M:%S')
   end
 end
-
-
-

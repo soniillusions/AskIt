@@ -28,4 +28,17 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  flash:
+    success:
+      user_updated: 'User was successfully updated.'
+      user_logout: 'See you later!'
+      answer_create: 'Answer created!'
+      answer_update: 'Answer updated!'
+      answer_delete: 'Answer deleted!'
+      question_create: 'Question created!'
+      question_update: 'Question updated!'
+      question_delete: 'Question deleted!'
+    warning:
+      invalid_login: 'Incorrect email or password'
+      already_sign: 'You are already signed in!'
+      not_sign: 'You are not signed in!'

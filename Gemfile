@@ -69,3 +69,9 @@ end
 gem 'draper', '~> 4.0'
 gem 'pagy', '~> 8.3' # omit patch digitgem 'pagy', '~> 4.1'
 gem 'valid_email2', '~> 4.0'
+gem 'rubyzip', '~> 2'
+gem 'caxlsx', '~> 3.1'
+gem 'caxlsx_rails', '~> 0.6'
+gem 'rubyXL', '~> 3.4'
+gem 'activerecord-import', '~> 1.7.0'
+

@@ -48,6 +48,12 @@ en:
       question:
         title: "Title"
         body: "Body"
+      user:
+        email: Email
+        name: Name
+        password: Password
+        password_confirmation: Password confirmation
+        old_password: Old password
 
 
   pages:
@@ -56,7 +62,8 @@ en:
 
   menu:
     edit_profile: Profile
-    home: "Home"
+    home: Home
+    questions: Questions
     sign_up: Sign Up
     log_in: Log In
     log_out: Log Out

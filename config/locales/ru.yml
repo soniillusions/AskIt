@@ -32,7 +32,8 @@ ru:
 
   menu:
     edit_profile: Профиль
-    home: "Главная"
+    home: Главная
+    questions: Вопросы
     sign_up: Регистрация
     log_in: Войти
     log_out: Выйти

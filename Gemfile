@@ -74,4 +74,5 @@ gem 'caxlsx', '~> 3.1'
 gem 'caxlsx_rails', '~> 0.6'
 gem 'rubyXL', '~> 3.4'
 gem 'activerecord-import', '~> 1.7.0'
+gem 'rails-i18n'
 

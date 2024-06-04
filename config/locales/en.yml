@@ -28,6 +28,39 @@
 #       enabled: "ON"
 
 en:
+  en: English
+  ru: Russian
+
+  users:
+    edit:
+      title: Edit profile
+
+  global:
+    button:
+      delete: Delete
+      edit: Edit
+      show: Show
+      submit: Submit
+      save: Save
+
+  activerecord:
+    attributes:
+      question:
+        title: "Title"
+        body: "Body"
+
+
+  pages:
+    index:
+      title: "Welcome to AskIt!"
+
+  menu:
+    edit_profile: Profile
+    home: "Home"
+    sign_up: Sign Up
+    log_in: Log In
+    log_out: Log Out
+
   flash:
     success:
       user_updated: 'User was successfully updated.'

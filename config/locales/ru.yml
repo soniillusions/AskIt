@@ -1,0 +1,53 @@
+ru:
+  en: Английский
+  ru: Русский
+
+  users:
+    edit:
+      title: Редактировать профиль
+
+  global:
+    button:
+      delete: Удалить
+      edit: Изменить
+      show: Показать
+      submit: Отправить
+      save: Сохранить
+
+  activerecord:
+    attributes:
+      question:
+        title: "Заголовок"
+        body: "Текст"
+      user:
+        email: Email
+        name: Имя
+        password: Пароль
+        password_confirmation: Подтверждение пароля
+        old_password: Старый пароль
+
+  pages:
+    index:
+      title: "Добро пожаловать в AskIt!"
+
+  menu:
+    edit_profile: Профиль
+    home: "Главная"
+    sign_up: Регистрация
+    log_in: Войти
+    log_out: Выйти
+
+  flash:
+    success:
+      user_updated: 'Пользователь успешно обновлен.'
+      user_logout: 'Увидимся позже!'
+      answer_create: 'Ответ создан!'
+      answer_update: 'Ответ обновлен!'
+      answer_delete: 'Ответ удален!'
+      question_create: 'Вопрос создан!'
+      question_update: 'Вопрос обновлен!'
+      question_delete: 'Вопрос удален!'
+    warning:
+      invalid_login: 'Неверный email или пароль'
+      already_sign: 'Вы уже авторизованы!'
+      not_sign: 'Вы не авторизованы!'

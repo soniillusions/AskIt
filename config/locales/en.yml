@@ -42,11 +42,15 @@ en:
       show: Show
       submit: Submit
       save: Save
+      new_question: New question
+      submit_answer: Submit answer
 
   activerecord:
     attributes:
       question:
         title: "Title"
+        body: "Body"
+      answer:
         body: "Body"
       user:
         email: Email
@@ -59,6 +63,17 @@ en:
   pages:
     index:
       title: "Welcome to AskIt!"
+    questions:
+      index:
+        title: Questions
+      show:
+        answers: Answers
+        write_answer: Write your answer
+      edit:
+        title: Edit question
+    answers:
+      edit:
+        title: Edit answer
 
   menu:
     edit_profile: Profile

@@ -13,11 +13,15 @@ ru:
       show: Показать
       submit: Отправить
       save: Сохранить
+      new_question: Новый вопрос
+      submit_answer: Подтвердить ответ
 
   activerecord:
     attributes:
       question:
         title: "Заголовок"
+        body: "Текст"
+      answer:
         body: "Текст"
       user:
         email: Email
@@ -26,9 +30,21 @@ ru:
         password_confirmation: Подтверждение пароля
         old_password: Старый пароль
 
+
   pages:
     index:
       title: "Добро пожаловать в AskIt!"
+    questions:
+      index:
+        title: Вопросы
+      show:
+        answers: Ответы
+        write_answer: Напишите свой ответ
+      edit:
+        title: Изменить вопрос
+    answers:
+      edit:
+        title: Изменить ответ
 
   menu:
     edit_profile: Профиль

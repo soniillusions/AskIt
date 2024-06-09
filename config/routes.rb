@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
+  scope '(:locale)', locale: /#{I18n.available_locales.join('|')}/ do
     # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
     # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
@@ -13,7 +13,12 @@ Rails.application.routes.draw do
     resources :users, only: %i[new create edit update]
 
     resources :questions do
+      resources :comments, only: %i[create destroy]
       resources :answers, expect: %i[new show]
+    end
+
+    resources :answers, expect: %i[new show] do
+      resources :comments, only: %i[create destroy]
     end
 
     namespace :admin do

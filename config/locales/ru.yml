@@ -18,6 +18,8 @@ ru:
 
   activerecord:
     attributes:
+      comment:
+        body: Текст
       question:
         title: "Заголовок"
         body: "Текст"
@@ -30,6 +32,11 @@ ru:
         password_confirmation: Подтверждение пароля
         old_password: Старый пароль
 
+  comments:
+    create:
+      success: Комментарий создан!
+    destroy:
+      success: Комментарий удален!
 
   pages:
     index:
@@ -40,6 +47,7 @@ ru:
       show:
         answers: Ответы
         write_answer: Напишите свой ответ
+        comments: Показать комментарии
       edit:
         title: Изменить вопрос
     answers:

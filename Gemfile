@@ -61,20 +61,20 @@ group :development do
 
   gem 'error_highlight', '>= 0.4.0', platforms: [:ruby]
 
+  gem 'bullet'
   gem 'rubocop', '~> 1.18', require: false
   gem 'rubocop-performance', '~> 1.11', require: false
   gem 'rubocop-rails', '~> 2.11', require: false
 end
 
-gem 'draper', '~> 4.0'
-gem 'pagy', '~> 8.3' # omit patch digitgem 'pagy', '~> 4.1'
-gem 'valid_email2', '~> 4.0'
-gem 'rubyzip', '~> 2'
+gem 'activerecord-import', '~> 1.7.0'
 gem 'caxlsx', '~> 3.1'
 gem 'caxlsx_rails', '~> 0.6'
-gem 'rubyXL', '~> 3.4'
-gem 'activerecord-import', '~> 1.7.0'
-gem 'rails-i18n'
-gem 'lokalise_rails', '~> 2'
 gem 'dotenv-rails', '~> 2.0'
-
+gem 'draper', '~> 4.0'
+gem 'lokalise_rails', '~> 2'
+gem 'pagy', '~> 8.3' # omit patch digitgem 'pagy', '~> 4.1'
+gem 'rails-i18n'
+gem 'rubyXL', '~> 3.4'
+gem 'rubyzip', '~> 2'
+gem 'valid_email2', '~> 4.0'

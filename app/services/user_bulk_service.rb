@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class UserBulkService < ApplicationService
   attr_reader :archive
 
@@ -26,4 +28,3 @@ class UserBulkService < ApplicationService
     end
   end
 end
-

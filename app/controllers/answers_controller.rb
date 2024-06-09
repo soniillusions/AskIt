@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class AnswersController < ApplicationController
+  include QuestionsAnswers
   include ActionView::RecordIdentifier
 
   before_action :set_question!
@@ -15,10 +16,7 @@ class AnswersController < ApplicationController
       flash[:success] = t('flash.success.answer_create')
       redirect_to question_path(@question)
     else
-      @question = @question.decorate
-      @pagy, @answers = pagy @question.answers.order(created_at: :desc)
-      @answers = @answers.decorate
-      render 'questions/show'
+      load_questions_answers(do_render: true)
     end
   end
 

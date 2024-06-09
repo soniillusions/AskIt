@@ -47,6 +47,8 @@ en:
 
   activerecord:
     attributes:
+      comment:
+        body: Body
       question:
         title: "Title"
         body: "Body"
@@ -59,6 +61,11 @@ en:
         password_confirmation: Password confirmation
         old_password: Old password
 
+  comments:
+    create:
+      success: Comment created!
+    destroy:
+      success: Comment deleted!
 
   pages:
     index:
@@ -69,6 +76,7 @@ en:
       show:
         answers: Answers
         write_answer: Write your answer
+        comments: Show comments
       edit:
         title: Edit question
     answers:

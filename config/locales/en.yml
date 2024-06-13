@@ -73,6 +73,7 @@ en:
     questions:
       index:
         title: Questions
+        search_by_tags: Search by tags
       show:
         answers: Answers
         write_answer: Write your answer

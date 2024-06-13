@@ -44,6 +44,7 @@ ru:
     questions:
       index:
         title: Вопросы
+        search_by_tags: Поиск по тегам
       show:
         answers: Ответы
         write_answer: Напишите свой ответ

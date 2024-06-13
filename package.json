@@ -12,6 +12,7 @@
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "sass": "^1.77.4",
+    "tom-select": "^2.3.1",
     "turbolinks": "^5.2.0"
   },
   "scripts": {

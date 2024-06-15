@@ -4,6 +4,11 @@ Rails.application.routes.draw do
   concern :commentable do
     resources :comments, only: %i[create destroy]
   end
+
+  namespace :api do
+    resources :tags, only: :index
+  end
+
   scope '(:locale)', locale: /#{I18n.available_locales.join('|')}/ do
     # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

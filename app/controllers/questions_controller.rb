@@ -8,6 +8,7 @@ class QuestionsController < ApplicationController
   def index
     @pagy, @questions = pagy Question.all_by_tags(params[:tag_ids])
     @questions = @questions.decorate
+    @tags = Tag.all
   end
 
   def show

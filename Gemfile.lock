@@ -331,14 +331,14 @@ DEPENDENCIES
   bullet
   caxlsx (~> 3.1)
   caxlsx_rails (~> 0.6)
-  cssbundling-rails
+  cssbundling-rails (~> 1.0)
   debug
   dotenv-rails (~> 2.0)
   draper (~> 4.0)
   error_highlight (>= 0.4.0)
   faker (~> 2)
   jbuilder
-  jsbundling-rails
+  jsbundling-rails (~> 1.0)
   lokalise_rails (~> 2)
   pagy (~> 8.3)
   puma (>= 5.0)
@@ -349,7 +349,7 @@ DEPENDENCIES
   rubocop-rails (~> 2.11)
   rubyXL (~> 3.4)
   rubyzip (~> 2)
-  sprockets-rails
+  sprockets-rails (~> 3.4)
   sqlite3 (~> 1.4)
   tzinfo-data
   valid_email2 (~> 4.0)

@@ -1,5 +1,6 @@
 import $ from 'jquery'
 import 'select2/dist/js/select2'
+import 'select2/dist/css/select2.min.css';
 import * as Select2Ru from 'select2/src/js/select2/i18n/ru'
 import * as Select2En from 'select2/src/js/select2/i18n/en'
 

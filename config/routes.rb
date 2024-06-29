@@ -27,7 +27,7 @@ Rails.application.routes.draw do
     resources :answers, expect: %i[new show], concerns: :commentable
 
     namespace :admin do
-      resources :users, only: %i[index create]
+      resources :users, only: %i[index create edit update destroy]
     end
 
     root 'pages#index'

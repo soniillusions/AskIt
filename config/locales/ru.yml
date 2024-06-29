@@ -5,8 +5,21 @@ ru:
   users:
     edit:
       title: Редактировать профиль
+    destroy:
+      success: Пользователь удален
+    update:
+      success: Пользователь обновлен
+    global:
+      forms:
+        register: Регистрация
+        save: Сохранить
 
   global:
+    user:
+      roles:
+        basic: Базовый
+        moderator: Модератор
+        admin: Админ
     button:
       delete: Удалить
       edit: Изменить
@@ -15,6 +28,9 @@ ru:
       save: Сохранить
       new_question: Новый вопрос
       submit_answer: Подтвердить ответ
+    dialog:
+      you_sure: Вы уверены?
+
 
   activerecord:
     attributes:
@@ -31,6 +47,18 @@ ru:
         password: Пароль
         password_confirmation: Подтверждение пароля
         old_password: Старый пароль
+        created_at: Создан
+        updated_at: Обновлен
+        role: Роль
+
+  admin:
+    users:
+      edit:
+        title: Редактирование пользователя
+      update:
+        success: Пользователь обновлен!
+      destroy:
+        success: Пользователь удален!
 
   comments:
     create:

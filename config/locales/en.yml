@@ -34,8 +34,22 @@ en:
   users:
     edit:
       title: Edit profile
+    destroy:
+      success: User deleted!
+    update:
+      success: User updated!
+    global:
+      forms:
+        register: Register
+        save: Save
+
 
   global:
+    user:
+      roles:
+        basic: Basic
+        moderator: Moderator
+        admin: Admin
     button:
       delete: Delete
       edit: Edit
@@ -44,6 +58,8 @@ en:
       save: Save
       new_question: New question
       submit_answer: Submit answer
+    dialog:
+      you_sure: You sure?
 
   activerecord:
     attributes:
@@ -60,6 +76,18 @@ en:
         password: Password
         password_confirmation: Password confirmation
         old_password: Old password
+        created_at: Created at
+        updated_at: Updated at
+        role: Role
+
+  admin:
+    users:
+      edit:
+        title: Edit user
+      update:
+        success: User updated!
+      destroy:
+        success: User deleted!
 
   comments:
     create:
